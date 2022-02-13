@@ -47,20 +47,15 @@
     padding: 0 35px;
     -webkit-text-size-adjust: 100%;
 }
-.hover-red {
-    color: #000;
+.fa-bars:hover {
+  color: red;
+  transition: 0.6s;  
 }
-.hover-red:hover {
-    color: #ff0000;
-    transition-duration: 0.7s;
-}
-
 label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
 }
-
 .side-button-2 {
     font-size: 30px;
     border-radius: 20px;
