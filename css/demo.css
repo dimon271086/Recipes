@@ -80,7 +80,7 @@ label {
     max-width: 320px;
     display: none;
     font-family: 'Lobster', Arial, Helvetica, sans-serif;
-    background-color: #d8d8d8;
+    background-color: rgb(255, 236, 189);
 }
 
 .menu-title {
