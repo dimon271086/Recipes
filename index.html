@@ -26,32 +26,19 @@
 </head>
 
 <body>
-  
-
-
     <div class="flexbox">
-        <div><img src="img/logo.png" alt="" width="120px" style="padding: 5px;">
-            <span class="pusch"><img src="img/burger_icon.png" width="110px;" alt="" style="float: right; padding: 25px; cursor: pointer"></span>
-        </div>
+        <div><img src="img/logo.png" alt="" width="120px" style="padding: 5px;"><span class="pusch"><img src="img/burger_icon.png" width="110px;" alt="" style="float: right; padding: 25px; cursor: pointer"></span></div>
     </div>
-
     <div class="slide" style="background-image: url(img/fon2.png)">
         <div class="slide-text">Готовь вкусно!</div>
     </div>
-
     <div id="right-menu">
         <div class="menu-title">Каталог<span style="font-family: sans-serif;"><label class="side-button-2" for="side-checkbox">+</label></span></div>
-
         <div class="screen">
             <div class="menu__wrapper">
-
                 <div class="js-menu">
                     <ul>
-
-                        <li>
-                            <a href="#">Напитки</a>
-                            <ul>
-                                <li><a href="#">Напитки</a>
+                        <li><a href="#">Напитки</a>
                             <ul>
                                 <li><a href="#">Смузи</a>
                                     <ul>
@@ -80,11 +67,9 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">Второе</a>
+                        <li><a href="#">Второе</a>
                             <ul>
-                                <li>
-                                    <a href="#">Категория_1</a>
+                                <li><a href="#">Категория_1</a>
                                     <ul>
                                         <li><a href="#">ПодКатегория</a></li>
                                         <li><a href="#">ПодКатегория</a></li>
@@ -92,16 +77,14 @@
                                         <li><a href="#">ПодКатегория</a></li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#">Категория_2</a>
+                                <li><a href="#">Категория_2</a>
                                     <ul>
                                         <li><a href="#">ПодКатегория</a></li>
                                         <li><a href="#">ПодКатегория</a></li>
                                         <li><a href="#">ПодКатегория</a></li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#">Категория_3</a>
+                                <li><a href="#">Категория_3</a>
                                     <ul>
                                         <li><a href="#">ПодКатегория</a></li>
                                         <li><a href="#">ПодКатегория</a></li>
@@ -110,8 +93,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">Молоко, сыр, яйца</a>
+                        <li><a href="#">Молоко, сыр, яйца</a>
                             <ul>
                                 <li><a href="#">Молоко</a></li>
                                 <li><a href="#">Сыры</a></li>
@@ -124,11 +106,9 @@
                                 <li><a href="#">Яйца</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">Овощи, фрукты, грибы</a>
+                        <li><a href="#">Овощи, фрукты, грибы</a>
                             <ul>
-                                <li>
-                                    <a href="#">Фрукты</a>
+                                <li><a href="#">Фрукты</a>
                                     <ul>
                                         <li><a href="#">Бананы</a></li>
                                         <li><a href="#">Апельсины</a></li>
@@ -139,8 +119,7 @@
                                         <li><a href="#">Виноград</a></li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#">Овощи</a>
+                                <li><a href="#">Овощи</a>
                                     <ul>
                                         <li><a href="#">Капуста</a></li>
                                         <li><a href="#">Картофель</a></li>
@@ -152,16 +131,14 @@
                                 <li><a href="">Грибы</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">Мясо, птица, деликатесы</a>
+                        <li><a href="#">Мясо, птица, деликатесы</a>
                             <ul>
                                 <li><a href="#">Мясо птицы</a></li>
                                 <li><a href="#">Свинина</a></li>
                                 <li><a href="#">Говядина</a></li>
                                 <li><a href="#">Телятина</a></li>
                                 <li><a href="#">Баранина</a></li>
-                                <li>
-                                    <a href="#">Фарш</a>
+                                <li><a href="#">Фарш</a>
                                     <ul>
                                         <li><a href="#">Говядина</a></li>
                                         <li><a href="#">Свинина</a></li>
@@ -177,34 +154,25 @@
                         <li><a href="#">Хлеб, сладости, снеки</a></li>
                         <li><a href="#">Рыба и морепродукты</a></li>
                         <li><a href="#">Статьи</a></li>
-
                     </ul>
                 </div>
-
             </div>
         </div>
-
     </div>
-
     <script>
         var slinky = $('.js-menu').slinky({
             title: true
         });
     </script>
-
-
-
     <script>
         $(document).ready(function() {
             $(".pusch").click(function() {
-
                 $("#right-menu").slideToggle(500);
                 $(".flexbox").hide();
                 $(".slide").hide();
             });
         });
     </script>
-
     <script>
         $(document).ready(function() {
             $(".side-button-2").click(function() {
@@ -213,19 +181,5 @@
                 $(".slide").slideToggle();
             });
         });
-    </script>
-
-    <!--
-<script>
-$(document).ready(function() {
-  $(".side-button-2").click(function() {
-    $("#right-menu").remove();
-      $(".bt").slideToggle();
-  });
-});
-</script>
--->
-
-
 
 </body></html>
