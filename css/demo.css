@@ -34,8 +34,18 @@
     font-family: 'Lobster', Arial, Helvetica, sans-serif;
     color: #d35e0b;
     text-align: center;
-    padding: 30px 10px;
-    
+    padding: 30px 10px;  
+}
+.description {
+/*    font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #212529;
+    padding: 0 35px;
+    -webkit-text-size-adjust: 100%;
 }
 .hover-red {
     color: #000;
