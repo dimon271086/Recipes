@@ -19,7 +19,7 @@
 
 .flexbox > div {
   flex: auto;
-  background-color: rgb(255, 248, 230);
+  background: linear-gradient(90deg, rgba(255,235,183,0.9895308465182948) 0%, rgba(255,237,193,0.9867297260701156) 42%, rgba(255,249,233,0.9699230033810399) 100%);
     
 }
 .slide {
